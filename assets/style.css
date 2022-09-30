@@ -1,0 +1,13 @@
+.para {
+    color: maroon;
+    text-align:center;
+    font-style:italic;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: beige;
+}
+
+.p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(80, 38, 38);
+}

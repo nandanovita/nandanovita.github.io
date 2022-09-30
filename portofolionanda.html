@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
+<style>
+    .paragraph {
+        color:rgb(8, 43, 90);
+        font-weight: bold; 
+        font-style:initial;
+        font-size:20px;
+    }
+    
+</style>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <h1>Portofolio</h1>
-    <p>Nama:</p>
+    <h1 class="para">Portofolio</h1>
+    <p class="paragraph">Nama:</p>
         <input type="text" name="nama">
-    <p>Domisili</p>
+    <p class="paragraph">Domisili</p>
     <input type="radio" name="domisili" id="Mojokerto">
     <label for="Mojokerto">Mojokerto</label>
     <input type="radio" name="domisili" id="Surabaya">
@@ -18,11 +28,11 @@
     <input type="radio" name="domisili" id="Malang">
     <label for="Malang">Malang</label>
     <div>
-        <input type="submit" value="kirim">
+        <input style="background-color:rgb(10, 59, 122); color:white" type="submit" value="kirim">
     </div>
-    <p>Tentang saya:</p>
+    <p class="paragraph">Tentang saya:</p>
     <input type="text" name="tentang saya">
-    <p>Keahlian Saya</p>
+    <p class="paragraph">Keahlian Saya</p>
     <input type="checkbox" name="keahlian saya" id="Design">
     <label for="design">Design</label>
   <div>
@@ -54,85 +64,100 @@
     <label for="Creative Problem Solving">Creative Problem Solving</label>
   </div>
   <div>
-    <input type="submit" value="kirim">
+    <input style="background-color: rgb(10, 59, 122); color:white" type="submit" value="kirim">
+    <input style="background-color: rgb(196, 31, 31); color:white" type="submit" value="reset">
 </div>
-  <p>Pendidikan Saya</p>
+<style>
+    table, tr, th, td{
+        border-collapse: collapse;
+        color:maroon;
+        padding: 10px;
+        text-align:center;
+    }
+</style>
+  <p class="paragraph">Pendidikan Saya</p>
   <table border="3">
   <tr>
-    <th>Tahun</th>
-    <th>Instansi</th>
+    <th style="color:black; background-color:rgb(39, 98, 138);">Tahun</th>
+    <th style="color:black; background-color: rgb(39, 98, 138);">Instansi</th>
   </tr>
   <tr>
-    <td>2013-2016</td>
-    <td>SMP Negeri 1 Mojosari</td>
+    <td style="color:black">2013-2016</td>
+    <td style="color:black">SMP Negeri 1 Mojosari</td>
   </tr>
   <tr>
-    <td>2017-2020</td>
-    <td>SMA Negeri 1 Mojosari</td>
+    <td style="color:black">2017-2020</td>
+    <td style="color:black">SMA Negeri 1 Mojosari</td>
   </tr>
   <tr>
-    <td>2020-sekarang</td>
-    <td>UPN Veteran Jawa Timur</td>
+    <td style="color:black">2020-sekarang</td>
+    <td style="color:black">UPN Veteran Jawa Timur</td>
   </tr>
 </table>
 
-<p>Pengalaman</p>
+<p class="paragraph">Pengalaman</p>
 <table border="3">
     <tr>
-        <th>Pengalaman</th>
-        <th>Tahun</th>
-        <th>Yang dilakukan</th>
+        <th style="color:black; background-color: rgb(39, 98, 138);">Pengalaman</th>
+        <th style="color:black; background-color: rgb(39, 98, 138);">Tahun</th>
+        <th style="color:black; background-color: rgb(39, 98, 138);">Yang dilakukan</th>
     </tr>
     <tr>
-        <td>Panitia Phenom</td>
-        <td>2021</td>
-        <td>Disini saya sebagai divisi Perlengkapan yang mana hal yang saya dapatkan yaitu 
+        <td style="color:black">Panitia Phenom</td>
+        <td style="color:black">2021</td>
+        <td style="color:black">Disini saya sebagai divisi Perlengkapan yang mana hal yang saya dapatkan yaitu 
             merencanakan, mendata, mengoordinasikan, bertanggung jawab atas peralatan 
             dan perlengkapan yang dibutuhkan dalam kegiatan PHENOM</td>
     </tr>
     <tr>
-        <td>Kepanitiaan Webinar Hukum</td>
-        <td>2022</td>
-        <td>Pada kepanitiaan ini saya sebagai divisi Humas dimana saya membuat konsep,
+        <td style="color:black">Kepanitiaan Webinar Hukum</td>
+        <td style="color:black">2022</td>
+        <td style="color:black">Pada kepanitiaan ini saya sebagai divisi Humas dimana saya membuat konsep,
             merancang serta mendesign katalog, membuat daftar kebutuhan dan anggaran terkait dengan 
             publikasi dan promosi acara serta bertanggung jawab kepada ketua panitia</td>
     </tr>
     <tr>
-        <td>Volunteer "Stop Self Blaming"</td>
-        <td>2021</td>
-        <td>Menginformasikan pamflet mengenai materi "Stop Self Balming" secara umum dalam 
+        <td style="color:black">Volunteer "Stop Self Blaming"</td>
+        <td style="color:black">2021</td>
+        <td style="color:black">Menginformasikan pamflet mengenai materi "Stop Self Balming" secara umum dalam 
             media sosial</td>
     </tr>
     <tr>
-        <td>Perencanaan Pembangunan Wilayah 
+        <td style="color:black">Perencanaan Pembangunan Wilayah 
             (Mata Kuliah Perencanaan Pembangunan UPN "Veteran Jawa Timur"</td>
-        <td>2022</td>
-        <td>Melakukan analisis LQ, Shift Share, dan Tipologi Klassen Kabupaten Nunukan
+        <td style="color:black">2022</td>
+        <td style="color:black">Melakukan analisis LQ, Shift Share, dan Tipologi Klassen Kabupaten Nunukan
             dari tahun 2017-2021 kemudian mempresentasikan hasil dari ketiga analisis menjadi
             sebuah temuan hasil untuk mengetahui perencanaan pembangunan wilayah yang tepat untuk dilakukan 
             di Kabupaten Nunukan</td>
     </tr>
     <tr>
-        <td>Analisis Ekonomi Daerah
+        <td style="color:black">Analisis Ekonomi Daerah
             (Mata Kuliah Ekonomi Regional UPN "Veteran Jawa Timur")</td>
-        <td>2022</td>
-        <td>Melakukan analisis Ekonomi daerah Kabupaten Tebo dan Lampung berdasarkan kondisi riil ekonomi,
+        <td style="color:black">2022</td>
+        <td style="color:black">Melakukan analisis Ekonomi daerah Kabupaten Tebo dan Lampung berdasarkan kondisi riil ekonomi,
             teori lokasi, dan potensi wilayah, lalu membuat saran yang tepat untuk pengembangan ekonomi kedua daerah tersebut.</td>
     </tr>
     <tr>
-        <td>Analisis pengaruh antar variabel makro
+        <td style="color:black">Analisis pengaruh antar variabel makro
             (Mata Kuliah Ekonometrika)</td>
-        <td>2022</td>
-        <td>Melakukan analisis pengaruh antara beberapa variabel makro yang mana nantinya diketahui pengaruh anar variabel tersebut
+        <td style="color:black">2022</td>
+        <td style="color:black">Melakukan analisis pengaruh antara beberapa variabel makro yang mana nantinya diketahui pengaruh anar variabel tersebut
             dan sebesar apa pengaruhnya terhadap variabel dependen</td>
     </tr>
 </table>
-<p>Kontak saya</p>
-<p><a href="https://instagram.com/nndnvtsr_?igshid=YmMyMTA2M2Y=">Instagram</a></p>
-<p><a href="https://www.linkedin.com/in/nanda-novitasari-736ab1241">Linkedin</a></p>
+<style>
+    a:hover {
+  background-color: lightgreen;
+}
+</style>
+<p class="paragraph">Kontak saya</p>
+<p class="p1"><a href="https://instagram.com/nndnvtsr_?igshid=YmMyMTA2M2Y=">Instagram</a></p>
+<p class="p1"><a href="https://www.linkedin.com/in/nanda-novitasari-736ab1241">Linkedin</a></p>
 
-<p>Cukup sekian, lebih lanjut click 
+<p class="p1">Cukup sekian, lebih lanjut click 
     <a href="file:///C:/Users/USER/Documents/html/biodata.html">Biodata saya</a>
+    
 </p>
 </body>
 </html>
