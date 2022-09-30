@@ -11,3 +11,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(80, 38, 38);
 }
+
+
+.container{width:400px; margin: 30px auto}
+img{
+width:400px; 
+box-shadow:0 0 0 5px #570505,
+           0 0 0 10px #000000,
+           0 0 0 20px #c25757; 
+		   }
