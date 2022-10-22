@@ -17,7 +17,7 @@ object-fit: cover;
 box-shadow:0 0 0 5px #570505,
            0 0 0 10px #000000,
            0 0 0 15px #c25757; 
-		   } */
+		   } */ */
 
 .title {
     font-family: 'Roboto', sans-serif;
@@ -31,6 +31,10 @@ box-shadow:0 0 0 5px #570505,
         
 #hero {
     height: 95vh;
+    box-shadow: #c25757;
+    box-shadow:0 0 0 5px #570505,
+                    0 0 0 10px #000000,
+                    0 0 0 15px #c25757;>
 }
 
 .text-about {
@@ -44,6 +48,7 @@ box-shadow:0 0 0 5px #570505,
 }
 
 .card-text {
+    height:auto;
     text-align: justify;
 }
 
